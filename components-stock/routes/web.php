@@ -10,3 +10,15 @@ Route::get('/', function () {
 Route::get('/scroll-expand', function(){
     return view('scroll-expand');
 });
+
+Route::get('/prallax', function(){
+    return view('parallax-scrooll');
+});
+
+Route::get('/holo-card', function(){
+    return view('holo-card');
+});
+
+Route::get('/radial', function(){
+    return view('radial-orbital');
+});
