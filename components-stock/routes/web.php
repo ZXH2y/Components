@@ -12,7 +12,7 @@ Route::get('/scroll-expand', function(){
 });
 
 Route::get('/prallax', function(){
-    return view('parallax-scrooll');
+    return view('parallax');
 });
 
 Route::get('/holo-card', function(){
