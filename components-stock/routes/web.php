@@ -15,9 +15,6 @@ Route::get('/prallax', function(){
     return view('parallax');
 });
 
-Route::get('/holo-card', function(){
-    return view('holo-card');
-});
 
 Route::get('/radial', function(){
     return view('radial-orbital');
